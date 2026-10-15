@@ -14,12 +14,6 @@
 | 2 | [🧰 Prerequisites](#prerequisites) | Everyone |
 | 3 | [🏗️ Architecture](#architecture) | Everyone |
 | 4 | [📝 Participant assignment](#participant-assignment) | Participants |
-| 5 | [🛠️ Trainer reference solution](#trainer-reference-solution) | Trainer |
-| 6 | [⏱️ Trainer session plan](#trainer-session-plan) | Trainer |
-| 7 | [❓ Questions for participants](#questions-for-participants) | Participants (answer guide: Trainer) |
-| 8 | [🏆 Evaluation rubric](#evaluation-rubric) | Trainer |
-| 9 | [✅ Final verification checklist](#final-verification-checklist) | Trainer |
-| 10 | [🧹 Cleanup](#cleanup) | Everyone |
 
 ---
 
