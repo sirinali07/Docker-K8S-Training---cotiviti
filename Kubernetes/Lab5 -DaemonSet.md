@@ -33,7 +33,11 @@ spec:
     spec:
       containers:
       - name: fluentd-ctr
-        image: nginx
+        image: quay.io/fluentd_elasticsearch/fluentd:v5.0.1
+        resources:
+          requests:
+            cpu: 100m
+            memory: 200Mi
 ```
 save the file using `ESCAPE + :wq!`
 
