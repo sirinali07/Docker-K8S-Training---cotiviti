@@ -91,7 +91,7 @@ spec:
   containers:
   - name: nginx
     image: nginx
-  nodeName: {node-name / hostname }
+  nodeName: node01    #node-name/hostname
 ```
 ```
 kubectl apply -f node-name.yaml
