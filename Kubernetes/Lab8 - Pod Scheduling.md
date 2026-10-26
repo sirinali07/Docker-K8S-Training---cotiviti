@@ -12,7 +12,7 @@ kubectl get nodes --show-labels
 ```
 Label the node
 ```
-kubectl label nodes node1 disktype=ssd1
+kubectl label nodes node01 disktype=ssd1
 ```
 List your nodes to check labels 
 ```
@@ -48,10 +48,10 @@ Either change the Label on the Node or the Node Selector specifications in the p
 
 Changing the Label on the node. For this Unlabel the Node and mark it with the correct label
 ```
-kubectl label nodes node1 disktype-
+kubectl label nodes node01 disktype-
 ```
 ```
-kubectl label nodes node1 disktype=ssd
+kubectl label nodes node01 disktype=ssd
 ```
 List your nodes to check labels 
 ```
@@ -63,7 +63,7 @@ kubectl get po -o wide
 ```
 Before signing off, remove the label
 ```
-kubectl label nodes node1 disk type-
+kubectl label nodes node01 disk type-
 ```
 
 
@@ -146,7 +146,7 @@ kubectl get po -o wide
 ```
 Choose one of your nodes, and add a label to it. Where <your-node-name> is the name of your chosen node.
 ```
-kubectl label nodes node1 disktype=ssd
+kubectl label nodes node01 disktype=ssd
 ```
 Verify that your chosen node has a disktype=ssd label
 ```
@@ -158,7 +158,7 @@ kubectl get pods --output=wide
 ```
 Remove the label on the node
 ```
-kubectl label nodes node1 disktype-
+kubectl label nodes node01 disktype-
 ```
 Check if this effects the Pod status.
 ```
