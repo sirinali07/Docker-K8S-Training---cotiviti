@@ -404,7 +404,7 @@ i.e
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx-noexecute
+  name: pod1
   labels:
     env: test
 spec:
