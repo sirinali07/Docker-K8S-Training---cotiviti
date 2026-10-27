@@ -398,6 +398,26 @@ tolerations:
   value: "value1"
   effect: "NoSchedule"
 ```
+i.e
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-noexecute
+  labels:
+    env: test
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    imagePullPolicy: IfNotPresent
+  tolerations:
+  - key: "disktype"
+    operator: "Equal"
+    value: "ssd"
+    effect: "NoSchedule"
+```
 ```
 kubectl replace -f pod.yaml --force
 ```
